@@ -1,0 +1,51 @@
+body{
+
+	margin:0;
+	font-size:20px;
+	-webkit-font-smoothing: antialiased;
+
+}
+
+
+	.home{
+
+		background: radial-gradient(ellipse at center, rgba(205,179,152, .8) 0%,#ae957f 100%), 
+		url("img/noise.png");
+
+	}
+
+	.text-white{
+
+	color:white;
+
+	}
+
+
+	h2,h3{
+
+	margin: 0px;
+	font-weight: normal;
+
+	}
+
+ h2{
+
+	font-size: 2.5em;
+	font-family: 'Montserrat', sans-serif;
+	
+	}
+
+	h3{
+
+	font-size: 1.5em;
+	font-family: 'Cormorant Garamond', serif;
+
+	}	
+
+	.layout-fullscreen img{
+
+	opacity: 0.8;
+	height: 500px;
+	width: 650px;
+
+	}
