@@ -14,10 +14,22 @@ body{
 
 	}
 
+	.home img{
+
+	opacity: 0.8;
+	height: 500px;
+	width: 650px;
+
+	}
+
 	.text-white{
 
 	color:white;
 
+	}
+
+	.text-gray{
+		color: rgba(146, 139, 139, 0.65);
 	}
 
 
@@ -42,15 +54,107 @@ body{
 
 	}	
 
-	.layout-fullscreen img{
+	
 
-	opacity: 0.8;
-	height: 500px;
-	width: 650px;
+
+	.logo-img{
+
+	position: fixed;
+    z-index: 1;
+    height: 40px;
+    width: 40px;
+    left: 5%;
+    top: 2%;
 
 	}
+
 	.logo{
-		position: fixed;
+
+	position: fixed;
     z-index: 2;
     left: 10%;
+    top: 3%;
+
 	}
+
+	.button-menu{
+
+	display: block;
+    position: fixed;
+    z-index: 1;
+    right: 10%;
+    top: 3%;
+
+	}
+
+	.button-style{
+	border: 0px;
+    text-transform: uppercase;
+    color: white;
+    background: none;
+    font-size: 15px;
+	font-family: 'Cormorant Garamond', serif;
+	font-weight: 700;
+
+	}
+	.button-style:active {
+		box-shadow: 0px 5px 6px #C7D0CC;
+		border-radius: 22px;
+
+
+	}
+
+	.button-buy{
+	border: 2px solid #F4FFFC;
+	border-radius: 22px;
+    text-transform: uppercase;
+    color: white;
+    background: none;
+    font-size: 15px;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 700;
+
+	}
+	.button-buy:active {
+	box-shadow: 0px 5px 6px #C7D0CC;
+	border-radius: 22px;
+
+
+	}
+
+	.second-page{
+
+	background: url(img/potatoBlur.png);
+	background-size: cover;
+
+
+	}
+
+	.second-page h2{
+	position: absolute;
+    top: 200px;
+
+
+	}
+
+	.second-page p {
+	margin: 0px;
+	font-size: 1.5em;
+	position: absolute;
+    top: 300px;
+
+	}
+
+	.potato-line{
+	position: absolute;
+    top: 450px;
+	}
+
+	.potato-two{
+	width: 260px;
+    height: 190px;
+ 	position: absolute;
+    top: 560px;
+	}
+		 
+
