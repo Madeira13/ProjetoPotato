@@ -131,8 +131,10 @@ body{
 	}
 
 	.second-page h2{
-	position: absolute;
-    top: 200px;
+	/*position: absolute;
+    top: 200px;*/
+    margin-top: auto;
+    display: flex;
 
 
 	}
@@ -140,21 +142,26 @@ body{
 	.second-page p {
 	margin: 0px;
 	font-size: 1.5em;
-	position: absolute;
-    top: 300px;
+	/*position: absolute;
+    top: 300px;*/
+    margin-top: auto;
+    display: flex;
 
 	}
 
 	.potato-line{
-	position: absolute;
+	/*position: absolute;*/
     top: 450px;
+    margin-top: auto;
+    
 	}
 
 	.potato-two{
 	width: 260px;
     height: 190px;
- 	position: absolute;
-    top: 560px;
+    margin-top: auto;
+ 	/*position: absolute;
+    top: 560px;*/
 	}
 		 
 
