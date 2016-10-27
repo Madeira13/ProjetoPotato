@@ -49,3 +49,8 @@ body{
 	width: 650px;
 
 	}
+	.logo{
+		position: fixed;
+    z-index: 2;
+    left: 10%;
+	}
